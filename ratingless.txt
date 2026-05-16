@@ -1,0 +1,76 @@
+! Title: Ratingless
+! Description: Remove ratings from various websites
+! Version: 1.0.0
+! Expires: 2h
+
+! IMDb
+imdb.com##[data-testid='hero-rating-bar__aggregate-rating']
+imdb.com##[data-testid='hero-rating-bar__user-rating']
+imdb.com##[data-testid='hero-rating-bar__popularity']
+imdb.com##[data-testid='ratingGroup--imdb-rating']
+imdb.com##[data-testid='ratingGroup--metacritic-rating']
+imdb.com##[data-testid='ratingGroup--tomatometer-rating']
+imdb.com##[data-testid='chart-layout-total-rating']
+imdb.com##.AggregateRatingButton__RatingScore
+imdb.com##.AggregateRatingButton__TotalRatingAmount
+imdb.com##[aria-label*='IMDb rating']
+imdb.com##[aria-label*='User ratings']
+imdb.com##span.ipc-rating-star
+imdb.com##.ipc-rating-star
+imdb.com##.sc-bde20123-1
+
+! Letterboxd
+letterboxd.com##section.ratings-histogram-chart
+letterboxd.com##.inline-rating
+letterboxd.com##svg.glyph.-rating
+letterboxd.com##.rating[class*='rated-']
+letterboxd.com##[aria-label*=' out of 5']
+letterboxd.com##[data-original-title*='Average rating']
+letterboxd.com##.average-rating
+letterboxd.com##.rating-histogram
+letterboxd.com##a[href*='/ratings/']
+letterboxd.com##.production-statistic.-rating
+letterboxd.com##.production-statistic.-likes
+letterboxd.com##.production-statistic.-topFilms
+letterboxd.com##.inline-liked.-like
+letterboxd.com##.poster-viewingdata .rating.liked
+letterboxd.com##a[href*='/likes/']
+
+! Goodreads
+goodreads.com##a[href='#CommunityReviews']
+goodreads.com##a[href='#ReviewsSection']
+goodreads.com##[aria-label*='ratings']
+goodreads.com##[aria-label*='reviews']
+goodreads.com##.BookPageMetadataSection__ratingStats .RatingStars
+goodreads.com##.ReviewsSectionStatistics .RatingStars
+goodreads.com##.BookPageMetadataSection__ratingStats
+goodreads.com##.ReviewsSectionStatistics
+goodreads.com##.ReviewsSectionStatistics__ratingStatistics
+goodreads.com##.ReviewsSectionStatistics__histogram
+goodreads.com##.RatingsHistogram
+goodreads.com##.ReviewCard .ShelfStatus .RatingStars
+goodreads.com##.ReviewCard .ShelfStatus [role='img'][aria-label^='Rating ']
+goodreads.com##.recommendationsWidget .communityRating
+goodreads.com##.recommendationsWidget .communityRating__starsWrapper
+goodreads.com##.recommendationsWidget .communityRating__stars
+goodreads.com##.recommendationsWidget .communityRating .gr-metaText
+goodreads.com##.recommendationsWidget [aria-label^='Rated ']
+goodreads.com##.minirating
+goodreads.com##.stars.staticStars
+goodreads.com##td.avg_rating
+goodreads.com##td.field.avg_rating
+goodreads.com##th.avg_rating
+goodreads.com##[itemprop='aggregateRating']
+goodreads.com##[data-testid='ratingsCount']
+goodreads.com##[data-testid='reviewsCount']
+goodreads.com##[data-testid^='ratingBar-']
+goodreads.com##[data-testid^='fill-']
+goodreads.com##button[aria-label*='likes']
+goodreads.com##button[aria-label*='comments']
+goodreads.com##.SocialFooter__statsContainer
+
+! EXT
+ext.to##.most-popular-rating
+ext.to##.search-rating-block
+ext.to##.imdbButton
+ext.to##li:has(.imdbButton)
