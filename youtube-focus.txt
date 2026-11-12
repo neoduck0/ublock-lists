@@ -1,6 +1,6 @@
 ! Title: YouTube-Focus
 ! Description: Remove distractions from YouTube
-! Version: 1.0.0
+! Version: 1.0.1
 ! Expires: 2h
 
 ! Shorts
@@ -13,6 +13,9 @@ youtube.com##ytd-rich-section-renderer:has(#title:has-text(Shorts))
 youtube.com##ytd-shelf-renderer:has(#title:has-text(Shorts))
 youtube.com##ytd-shelf-renderer:has(#title-text:has-text(Shorts))
 youtube.com##grid-shelf-view-model:has(.yt-shelf-header-layout__title:has-text(Shorts))
+youtube.com##grid-shelf-view-model:has(.ytShelfHeaderLayoutTitle:has-text(Shorts))
+youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model)
+youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)
 youtube.com##ytm-shorts-lockup-view-model-v2
 youtube.com##ytd-guide-entry-renderer[title="Shorts"]
 youtube.com##ytd-mini-guide-entry-renderer[title="Shorts"]
