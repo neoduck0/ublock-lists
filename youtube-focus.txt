@@ -1,0 +1,35 @@
+! Title: YouTube-Focus
+! Description: Remove distractions from YouTube
+! Version: 1.0.0
+! Expires: 2h
+
+! Shorts
+youtube.com##ytd-video-renderer:has(a[href*="/shorts/"])
+youtube.com##ytd-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"])
+youtube.com##ytd-rich-item-renderer:has(a[href*="/shorts/"])
+youtube.com##ytd-grid-video-renderer:has(a[href*="/shorts/"])
+youtube.com##ytd-rich-section-renderer:has(a[href*="/shorts/"])
+youtube.com##ytd-rich-section-renderer:has(#title:has-text(Shorts))
+youtube.com##ytd-shelf-renderer:has(#title:has-text(Shorts))
+youtube.com##ytd-shelf-renderer:has(#title-text:has-text(Shorts))
+youtube.com##grid-shelf-view-model:has(.yt-shelf-header-layout__title:has-text(Shorts))
+youtube.com##ytm-shorts-lockup-view-model-v2
+youtube.com##ytd-guide-entry-renderer[title="Shorts"]
+youtube.com##ytd-mini-guide-entry-renderer[title="Shorts"]
+youtube.com##ytd-guide-entry-renderer:has(a[href*="/shorts"])
+youtube.com##ytd-mini-guide-entry-renderer:has(a[href*="/shorts"])
+youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(Shorts))
+youtube.com##ytd-mini-guide-entry-renderer:has(yt-formatted-string:has-text(Shorts))
+youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text(Shorts))
+youtube.com##tp-yt-iron-tab:has-text(Shorts)
+youtube.com##yt-tab-shape:has-text(Shorts)
+youtube.com##ytd-compact-video-renderer:has(a[href*="/shorts/"])
+youtube.com##ytd-watch-next-secondary-results-renderer:has(a[href*="/shorts/"])
+
+! Comments
+youtube.com##ytd-comments
+youtube.com###comments
+
+! Recommendations
+youtube.com##ytd-browse[page-subtype="home"]
+youtube.com##ytd-watch-next-secondary-results-renderer
